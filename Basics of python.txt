@@ -1,0 +1,55 @@
+Introduction:
+Who invented python and Where &When -->Python was developed by Guido van Rossum in the late eighties and early nineties at
+ the National Research Institute for Mathematics and Computer Science in the Netherlands.
+
+1)Why people use python?
+Python is a high-level, interpreted, interactive and object-oriented scripting language. 
+Python is designed to be highly readable. It uses English keywords frequently where as other languages 
+use punctuation, and it has fewer syntactical constructions than other languages.
+
+
+2)Technical strengths of python
+	-It’s Object-Oriented and Functional--supports functional and structured programming methods as well as OOP.
+	-It’s Free
+	-It’s Portable--run on a wide variety of hardware platforms and has the same interface on all platforms.
+	-It’s Powerful
+	-It’s Mixable--easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+	-It’s Relatively Easy to Use and learn--has few keywords, simple structure, and a clearly defined syntax.
+
+3) what typed language?
+	Python is interpreted,strongly and Dynamically typed language
+4)Comparision of python with other languages(How it is different from other languages)
+
+5) Application of python
+
+6)Python interpreter, source code, byte code,PVM
+
+7)five implementations of the Python language
+	—CPython, Jython, IronPython, Stackless, and PyPy.
+	Psyco, Shed Skin, and frozen binaries are all variations on the execution model. 
+	In addition, the alternative implementations of Python named in the next two answers
+	modify the model in some fashion as well—by replacing byte code and VMs, or by
+	adding tools and JITs.
+	-CPython is the standard implementation of the language. Jython and IronPython
+	implement Python programs for use in Java and .NET environments, respectively;
+	they are alternative compilers for Python.
+	-Stackless is an enhanced version of Python aimed at concurrency, and PyPy is a
+	reimplementation of Python targeted at speed. PyPy is also the successor to Psyco,
+	and incorporates the JIT concepts that Psyco pioneered.
+
+8)Namespaces:
+A namespace is just a package of variables (i.e., names). It takes the form of an
+object with attributes in Python. Each module file is automatically a namespace—
+that is, a package of variables reflecting the assignments made at the top level of
+the file. Namespaces help avoid name collisions in Python programs: because each
+module file is a self-contained namespace, files must explicitly import other files
+in order to use their names.
+
+9)Different ways of running python program:
+by running code typed interactively
+by running code stored in files with system command lines
+by Unix-Style Executable Scripts: #!
+by file icon clicks
+by module imports and reloads
+by exec calls
+and by using  IDE GUIs such as IDLE.

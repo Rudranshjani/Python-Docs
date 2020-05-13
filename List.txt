@@ -1,0 +1,22 @@
+LISTS:
+
+1) Definition ,properties and creation of lists
+2)Accessing elements of lists: indexing and negative indexing , Slicing and Matrices
+3)Python List Methods
+append() - Add an element to the end of the list
+extend() - Add all elements of a list to the another list
+insert() - Insert an item at the defined index
+remove() - Removes an item from the list
+pop() -    Removes and returns an element at the given index
+clear() -  Removes all items from the list
+index() -  Returns the index of the first matched item
+count() -  Returns the count of number of items passed as an argument
+sort() -   Sort items in a list in ascending order
+reverse() -Reverse the order of items in the list
+copy() -   Returns a shallow copy of the list
+4) Built-in Functions with List:
+	all(), any(), enumerate(), len(), max(), min(), list(), sorted()
+5)Membership function , sorting method
+6) Iterating through lists
+7)Changing Lists in Place
+8)List Comprehension: Elegant way to create new List

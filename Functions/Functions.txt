@@ -1,0 +1,53 @@
+Functions:
+
+1)definition and syntax of function
+2)Why Use Functions?
+	-Maximizing code reuse and minimizing redundancy
+	-Procedural decomposition
+3)main concepts of Python functions
+	-def is executable code.
+	-def creates an object and assigns it to a name
+	-lambda creates an object but returns it as a result.
+	-return sends a result object back to the caller.
+	-yield sends a result object back to the caller, but remembers where it left off
+	-global declares module-level variables that are to be assigned.etc...cover all points
+4)Calling Function
+5) polymorphism using functions
+6)Functions with/without Return Values
+6) Positional and Keyword Arguments----positional arguments requires that the arguments be passed 
+				in the same order as their respective parameters in the function header.
+				keyword args requires passing each argument in the form name=value
+7)Passing Arguments by Reference Values---When you invoke a function with arguments, each argument's 
+					reference is passed by value to the parameter in the function.
+8)Default Arguments---The default valuesare passed to the parameters when a 
+			function is invoked without the arguments.
+
+9)Types of Functions:
+	-Built-in functions - Functions that are built into Python.
+		print(), input(), eval(),any(),ascii(),bin(),bool(),all(),format(),input()etc.
+
+	-User-defined functions - Functions defined by the users themselves.
+		Advantages of user-defined functions
+	a)User-defined functions help to decompose a large program into small segments 
+	which makes program easy to understand, maintain and debug.
+	b)If repeated code occurs in a program. Function can be used to include 
+	those codes and execute when needed by calling that function.
+	c)Programmars working on large project can divide the workload by making
+ 	different functions.
+	eg..def add_numbers(x,y):
+   	
+		sum = x + y
+  
+		return sum
+
+
+		
+	     num1 = 5
+
+	     num2 = 6
+
+
+	     print("The sum is", add_numbers(num1, num2))
+
+ 
+
